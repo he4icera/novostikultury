@@ -1,0 +1,313 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 1440px;
+}
+
+.news {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	margin-top: 60px;
+	margin-left: 547px;
+	margin-bottom: 46px;
+	color: #000000;
+}
+
+nav {
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+
+.main-menu ul {
+	margin-left: 135px;
+	margin-bottom: 47px;
+	padding: 0;
+	list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-menu li:first-child {
+	margin-right: 54px;
+}
+
+.main-menu li:nth-child(3),
+li:nth-child(7) {
+	margin-right: 50px;
+}
+
+.main-menu li:nth-child(2),
+li:nth-child(5) {
+	margin-right: 52px;
+}
+
+.main-menu li:nth-child(4),
+li:nth-child(6),
+li:nth-child(8) {
+	margin-right: 51px;
+}
+
+.container {
+	width: 1440px;
+	height: 464px;
+	background-image: url('../img/Hotel-11.jpg'); 
+}
+
+.logo {
+	margin-top: 46px;
+	margin-left: 693px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	margin-top: 32px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.intro {
+	margin-top: 139px;
+	margin-bottom: 48px;
+	margin-left: 492px;
+	width: 470px;
+	text-align: center;
+	color: #ffffff;
+}
+
+h2 {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 2px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.review-title{
+	margin-left: 678px;
+	margin-top: 44px;
+}
+
+.reviews {
+	display: flex;
+	justify-content: space-between;
+	margin-top:20px;
+	margin-left:137px;
+	margin-right: 135px;
+}
+
+section.review {
+	margin-bottom: 51px;
+}
+
+.reviews img {
+	width:370px;
+	height:203px;
+}
+
+div.review2 {
+	margin-right: 29px;
+	margin-left: 29px;
+}
+
+h3 {
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 23px;
+line-height: 31px;
+color: #000000;
+margin-top: 20px;
+}
+
+ h3.review2 {
+	color: #ff7931;
+ }
+
+.subscription {
+	background-image: url('../img/Ellipse 1.png'), url('../img/Rectangle 14.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, top;
+}
+
+.line {
+	opacity: 0.4;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	transform: rotate(0.1deg);
+	width: 100px;
+}
+
+.subscription-title {
+	padding-top: 33px;
+	margin-left: 604px;
+	
+}
+
+.goods {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+div.good {
+	margin-left: 536px;
+}
+
+.good {
+	text-align: center;
+	width: 370px;
+}
+
+
+.btn {
+
+	background: #ff7931;
+	
+	border: none;
+	width: 170px;
+	height: 47px;
+	
+	margin: 25px auto 36px 635px;
+
+	}
+
+span {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 11px 7px 15px 30px;
+}
+
+.arrow {
+
+
+}
+
+footer {
+	background: #575757;
+	width: 1440px;
+ 	height: 295px;
+}
+
+.footer-news {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	margin-top: 60px;
+	margin-left: 547px;
+	margin-bottom: 32px;
+	padding-top: 21px;
+	color: #ffffff;
+}
+
+.footer-menu ul {
+	margin-left: 135px;
+	margin-bottom: 46px;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu li {
+  display: inline-block;
+}
+
+.footer-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-menu li:first-child {
+	margin-right: 54px;
+}
+
+.footer-menu li:nth-child(3),
+li:nth-child(7) {
+	margin-right: 50px;
+}
+
+.footer-menu li:nth-child(2),
+li:nth-child(5) {
+	margin-right: 52px;
+}
+
+.footer-menu li:nth-child(4),
+li:nth-child(6),
+li:nth-child(8) {
+	margin-right: 51px;
+}
+
+.web ul {
+	list-style: none;
+}
+
+.web li {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+background-color: #ffffff;
+margin-top: 42px;
+margin-bottom: 51px;
+}
+
+.web img {
+  color: #575757;
+  text-decoration: none;
+  position: absolute;
+}
+
+.web li:first-child {
+	margin-left: 635px;
+	margin-right: 14px;
+}
+
+.web li:nth-child(2) {
+	margin-right: 14px;	
+}
+
+.instagram {
+	padding: 12px 12px 11px 12px;
+}
+
+.facebook {
+	padding: 13px 18px 12px 17px;
+}
+
+.twitter {
+	padding: 15px 13px 14px 12px;
+}
+
+.line2 {
+position: absolute;
+width: 1170px;
+height: 0px;
+opacity: 0.4;
+border: 1px solid #FFFFFF;
+margin-left: 135px;
+}
